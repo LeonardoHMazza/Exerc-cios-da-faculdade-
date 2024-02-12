@@ -1,0 +1,14 @@
+#container{
+    width: 300px;
+    height: 300px;
+    margin: 56px auto 0px;   
+    padding: 0px 24px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+form{
+    position: absolute; 
+    top: 26%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}

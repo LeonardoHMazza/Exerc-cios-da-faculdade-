@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho de API</title>
+    <link rel="stylesheet" href="fotos.css">
+    <script src="fotos.js"></script>
+</head>
+<body>
+    <div id="container">
+        <form>
+            <div id="titulos">
+                <h1>Api de fotos</h1>
+                <h2>Digite um ID de 1 a 5000:</h2>
+            </div>
+            <div>
+                <label for="numeroFoto">Informe o id da foto:</label>
+                <input type="number" id="numeroFoto">
+            </div>
+            <div>
+                <label for="albumId">Id do album:</label>
+                <input type="number" id="albumId" readonly>
+            </div>
+            <div>
+                <label for="title">Título:</label>
+                <input type="text" id="title" readonly>
+            </div>
+            <div>    
+                <button id="button" type="button" onclick="api()">
+                    Verifica imagem
+                </button>
+            </div>
+            <div>
+                <img id="foto">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
